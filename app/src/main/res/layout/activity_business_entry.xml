@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/business_entry_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView2">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal"
+            android:id="@+id/select_image"
+            android:clickable="true"
+            android:onClick="selectImage">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@mipmap/ic_launcher"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@color/colorPrimary" />
+
+            <TextView
+                android:textSize="24dp"
+                android:text="Select image"
+                android:layout_marginLeft="18dp"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <TextView
+            android:text="@string/business_name"
+            android:paddingLeft="4dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/businessName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/business_name"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:text="@string/business_description"
+            android:paddingLeft="4dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/businessDescription"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/business_description"
+            android:inputType="textShortMessage" />
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp"
+            android:text="Rating" />
+
+        <RatingBar
+            android:id="@+id/rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:numStars="5"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:isIndicator="false" />
+
+        <TextView
+            android:text="Address"
+            android:paddingLeft="4dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/address"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:paddingLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="City" />
+
+        <Spinner
+            android:id="@+id/cities"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="10dp"
+            android:dropDownWidth="fill_parent"
+            android:entries="@array/cities" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:background="@drawable/button_background_add"
+            android:text="@string/btn_add"
+            android:textColor="@android:color/black"
+            android:onClick="onClick"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"
+        app:layout_anchor="@+id/scrollView2" />
+</android.support.design.widget.CoordinatorLayout>

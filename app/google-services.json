@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "889318547493",
+    "firebase_url": "https://businessappdemo.firebaseio.com",
+    "project_id": "businessappdemo",
+    "storage_bucket": "businessappdemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889318547493:android:b761e3b96d0b9ad0",
+        "android_client_info": {
+          "package_name": "com.adityasonel.businessappdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889318547493-0vmph4pp3lo7ut3len7vbi8et71enmbh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.adityasonel.businessappdemo",
+            "certificate_hash": "7ec61a9d4553eb1be8d34fb64955823fde9655a5"
+          }
+        },
+        {
+          "client_id": "889318547493-bcnclq9l9u57hd4ge6kn1291ka4vnpf7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkis2-ond22GzlKpyJUUlvLIGY1mQd7YA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889318547493-bcnclq9l9u57hd4ge6kn1291ka4vnpf7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

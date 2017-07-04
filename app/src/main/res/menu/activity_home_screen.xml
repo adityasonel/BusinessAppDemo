@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addBusiness"
+        android:icon="@drawable/ic_add_item"
+        android:title="@string/add_business"
+        app:showAsAction="always"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/ic_setting"
+        android:title="@string/logout" />
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_relative_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:visibility="invisible"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/recycler_view"
+        android:contextClickable="false">
+
+    </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/empty_text_view"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="18dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:layout_centerInParent="true"
+            android:text="Fetching data..."
+            android:textSize="30dp" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/empty_text_view1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:layout_centerInParent="true"
+            android:text="Make sure Wi-Fi or cellular data is turned on, then try again."
+            android:textSize="24dp" />
+
+</LinearLayout>

@@ -1,0 +1,1275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Map Edit 1</name>
+    <description/>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-880E4F-nodesc-normal">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1899-880E4F-nodesc-highlight">
+      <IconStyle>
+        <color>ff4f0e88</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1899-880E4F-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-880E4F-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-880E4F-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-nodesc-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-000000-1200-nodesc-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-000000-1200-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-10300-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>10.3</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-10300-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>15.45</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-10300-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-10300-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-10300-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-10494-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>10.494</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-10494-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>15.741</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-10494-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-10494-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-10494-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-11269-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>11.269</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-11269-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>16.9035</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-11269-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-11269-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-11269-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-11656-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>11.656</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-11656-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>17.484</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-11656-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-11656-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-11656-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-11850-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>11.85</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-11850-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>17.775</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-11850-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-11850-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-11850-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-12044-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>12.044</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-12044-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>18.066</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-12044-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-12044-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-12044-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-12819-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>12.819</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-12819-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>19.2285</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-12819-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-12819-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-12819-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-8750-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>8.75</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-8750-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>13.125</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-8750-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-8750-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-8750-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-8944-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>8.944</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-8944-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>13.416</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-8944-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-8944-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-8944-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-FFFFFF-9138-nodesc-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>9.138</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-FFFFFF-9138-nodesc-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>13.707</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-FFFFFF-9138-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-FFFFFF-9138-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-FFFFFF-9138-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Landmarks</name>
+      <Placemark>
+        <name>Main Gate</name>
+        <description>Gate used for public entrance</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            75.8776875,22.7044375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Broken tree
+</name>
+        <styleUrl>#icon-1899-880E4F-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8779375,22.7039375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Peacock and Parrots
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8779375,22.7036875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Lory
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8780624999999,22.7035625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Budgerigar</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8779375,22.7036875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>indian Monitior lizard
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8780624999999,22.7035625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cheetal</name>
+        <description>Infront of blue fronted amazon and masked</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            75.8781875,22.7034375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cockteil</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8781875,22.7033125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Duck Pond
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8776875,22.7034375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>indian Rock Python
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8781875,22.7031875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hedgehog</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8781588,22.7033898,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Iguana</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8783125,22.7031875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jackal</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8784375,22.7030625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mirror House
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8788125,22.7029375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eurasian Eagle
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8789375,22.7028125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Porcupine</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8790625,22.7028125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chinkara</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8791874999999,22.7028125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shanti Kunj
+</name>
+        <description>Seating point</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            75.8790625,22.7025625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eagle Owl
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8793125,22.7024375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Pheasent
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8794375,22.7023125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lady Amherst
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8794375,22.7023125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Emu</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8795625,22.7023125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Plumheaded Parakeet
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8796875,22.7021875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Barn owl
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8796875,22.7021875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ghariyal</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8798125000001,22.7021875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>White Peacock 2
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8799375,22.7020625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Magar</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8801874999999,22.7019375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Intersection near magar
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8801874999999,22.7019375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Crocodiles
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8804375,22.7018125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hippopotamus</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8805625,22.7016875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sambhar</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8801874999999,22.7015625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hanuman Langur
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8805625,22.7016875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Panted Stork
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8805625,22.7015625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Face Monkey
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8806875,22.7015625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rosy Pelican
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8808125,22.7014375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Black buck
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8809375000001,22.7014375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vulture</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8803124999999,22.7013125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fox</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8804375,22.7013125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ghariyal Nursery
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8805625,22.7011875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garden</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8803124999999,22.7010625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Garden 1
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8808125,22.7009375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Turtles</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8810625,22.7009375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Eagle Fountain
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8811875,22.7009375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Swing Garden
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8813124999999,22.7008125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Photo Point Garden
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8814374999999,22.7009375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toilet</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8814374999999,22.7011875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Intersection Near Black Buck
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8811875,22.7011875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Neelgai</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8816875,22.7010625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Toddy Cat
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8823125,22.7008125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wolf</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8824374999999,22.7006875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Jungle Cat
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8821875,22.7005625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Intersection 5 cum water point
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8820625000001,22.7004375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Hyena</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8823125,22.7001875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>New Boat Fountain 
+</name>
+        <description>Seating Point</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            75.8820625000001,22.6994375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tiger 
+</name>
+        <description>3 in nos</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            75.8816875,22.6988125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fountain</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8813124999999,22.6989375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lion</name>
+        <description>3 in nos</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            75.8806875,22.6988125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Food Court
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8803124999999,22.6985625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Zoo Office
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8804375,22.6984375,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Seating Point
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8801874999999,22.6990625,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Leopard</name>
+        <description>2 IN NOS</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            75.8800625,22.6991875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Elephant</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8806875,22.6996875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sloth Bear
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8809375000001,22.6998125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rain Fountain
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8808125,22.7003125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Probable Silver Phesant
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.8793725,22.7023753,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Probable Turkey
+</name>
+        <styleUrl>#icon-1899-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            75.878989,22.7026413,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Line 67</name>
+        <styleUrl>#line-000000-1200-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8801034,22.7018953,0
+            75.8802322,22.7018458,0
+            75.8804199,22.7017146,0
+            75.8805272,22.7016379,0
+            75.8806613,22.7015489,0
+            75.8807203,22.7014623,0
+            75.8808678,22.7013806,0
+            75.8812273,22.7011505,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>RoadMap</name>
+      <Placemark>
+        <name>Line 15</name>
+        <styleUrl>#line-FFFFFF-9138-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8792089,22.7025423,0
+            75.8797467,22.702118,0
+            75.8801034,22.7018953,0
+            75.8802442,22.7013385,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 16</name>
+        <styleUrl>#line-FFFFFF-8944-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8802442,22.7013385,0
+            75.8804038,22.7012816,0
+            75.8810636,22.7009711,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 19</name>
+        <styleUrl>#line-FFFFFF-12819-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8811875,22.7009375,0
+            75.881242,22.7011715,0
+            75.8814244,22.7010824,0
+            75.8814901,22.7010057,0
+            75.8815947,22.7010008,0
+            75.8820266,22.7008239,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 20</name>
+        <styleUrl>#line-FFFFFF-11656-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8816189,22.6987354,0
+            75.881478,22.6988282,0
+            75.8812715,22.6988926,0
+            75.8812433,22.6988666,0
+            75.8811776,22.6988938,0
+            75.8810703,22.6988579,0
+            75.8808289,22.6987676,0
+            75.8806117,22.6987094,0
+            75.8805111,22.6986946,0
+            75.8803582,22.6987181,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 21</name>
+        <styleUrl>#line-FFFFFF-12819-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8803488,22.6987193,0
+            75.8802429,22.6987688,0
+            75.8801718,22.6988208,0
+            75.8801316,22.6988963,0
+            75.8801074,22.6990249,0
+            75.8801343,22.6991437,0
+            75.8801946,22.6992575,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 23</name>
+        <styleUrl>#line-FFFFFF-11269-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8807136,22.6996646,0
+            75.8807753,22.6997227,0
+            75.8808129,22.6997735,0
+            75.880841,22.699813,0
+            75.8808678,22.6998366,0
+            75.8808196,22.699912,0
+            75.8807713,22.6999628,0
+            75.8807163,22.700016,0
+            75.8806694,22.7000593,0
+            75.8808276,22.700329,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 24</name>
+        <styleUrl>#line-FFFFFF-8750-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8776948,22.7034665,0
+            75.8777672,22.7034541,0
+            75.8780207,22.7034442,0
+            75.8780582,22.703448,0
+            75.8780099,22.7035432,0
+            75.877963,22.7036273,0
+            75.8778839,22.7037944,0
+            75.8778852,22.7038166,0
+            75.8779375,22.7039375,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 25</name>
+        <styleUrl>#line-FFFFFF-10494-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8784431,22.7030867,0
+            75.8783332,22.7031708,0
+            75.8782795,22.7032178,0
+            75.8782138,22.7032945,0
+            75.8781628,22.7033725,0
+            75.8780582,22.703448,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 6</name>
+        <styleUrl>#line-FFFFFF-10300-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8784431,22.7030867,0
+            75.878427,22.7029642,0
+            75.8785518,22.7029024,0
+            75.8786952,22.702963,0
+            75.8792089,22.7025423,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 8</name>
+        <styleUrl>#line-FFFFFF-12044-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8820614,22.7004515,0
+            75.8819702,22.6998959,0
+            75.8819957,22.6995508,0
+            75.882103,22.6993664,0
+            75.8821298,22.6992365,0
+            75.8821526,22.6991016,0
+            75.882158,22.6988728,0
+            75.8821043,22.6987144,0
+            75.8819327,22.6986501,0
+            75.8818428,22.6986575,0
+            75.8816189,22.6987354,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Line 22</name>
+        <styleUrl>#line-FFFFFF-11850-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            75.8801946,22.6992575,0
+            75.8802576,22.6993466,0
+            75.8803113,22.6994147,0
+            75.8803877,22.6994666,0
+            75.8805312,22.6995334,0
+            75.8807136,22.6996646,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
